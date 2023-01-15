@@ -4,8 +4,10 @@ class SurveysController < ApplicationController
         render json: @survey
     end
     
+
     def index
         @surveys = Survey.all
     end
+    
     
 end
