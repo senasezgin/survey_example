@@ -5,7 +5,6 @@ class QuestionsController < ApplicationController
   
     def show
         set_question
-    
     end
   
     
